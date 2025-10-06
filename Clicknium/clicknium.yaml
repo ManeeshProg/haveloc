@@ -1,0 +1,12 @@
+startUp: app
+ignoreFiles: .gitignore
+type: project
+log:
+  folder: null
+  type: File
+requirements:
+  python: 3.9.21
+  packages:
+    - package: clicknium
+      version: null
+  locators: []

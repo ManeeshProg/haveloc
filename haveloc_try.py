@@ -150,7 +150,7 @@ def main():
         wait = WebDriverWait(driver, 15)
         driver.get('https://app.haveloc.com/login')
         assert 'haveloc' in driver.title.lower()
-        print("Page loaded successfully")
+        print("Page loaded")
 
         time.sleep(2)
         clear_installpopup(driver, wait)
